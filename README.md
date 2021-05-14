@@ -7,7 +7,7 @@ The heading will be rendered with the string between `{#` and `}`
 The id must be a valid id with the following criteria:
 
   - Must start with a letter (`A-Z`, `a-z`)
-	- Must only contain word characters (`A-Z`, `a-z`, `0-9`, `_`) or dashes (`-`)
+  - Must only contain word characters (`A-Z`, `a-z`, `0-9`, `_`) or dashes (`-`)
 
 # Usage
 
