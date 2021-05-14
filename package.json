@@ -18,14 +18,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/UziTech/marked-custom-heading-id.git"
+    "url": "git+https://github.com/markedjs/marked-custom-heading-id.git"
   },
   "author": "Tony Brix <Tony@Brix.ninja> (https://Tony.Brix.ninja)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/UziTech/marked-custom-heading-id/issues"
+    "url": "https://github.com/markedjs/marked-custom-heading-id/issues"
   },
-  "homepage": "https://github.com/UziTech/marked-custom-heading-id#readme",
+  "homepage": "https://github.com/markedjs/marked-custom-heading-id#readme",
   "peerDependencies": {
     "marked": "^1.0.0 || ^2.0.0"
   },
