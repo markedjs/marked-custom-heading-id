@@ -1,11 +1,14 @@
 {
-  "name": "marked-extension-template",
+  "name": "marked-custom-heading-id",
   "version": "0.0.0",
   "description": "marked extension template",
   "main": "src/index.js",
   "keywords": [
     "marked",
-    "extension"
+    "extension",
+    "custom",
+    "heading",
+    "id"
   ],
   "scripts": {
     "test": "jest --verbose",
@@ -15,18 +18,17 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/UziTech/marked-extension-template.git"
+    "url": "git+https://github.com/UziTech/marked-custom-heading-id.git"
   },
   "author": "Tony Brix <Tony@Brix.ninja> (https://Tony.Brix.ninja)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/UziTech/marked-extension-template/issues"
+    "url": "https://github.com/UziTech/marked-custom-heading-id/issues"
   },
-  "homepage": "https://github.com/UziTech/marked-extension-template#readme",
+  "homepage": "https://github.com/UziTech/marked-custom-heading-id#readme",
   "peerDependencies": {
     "marked": "^1.0.0 || ^2.0.0"
   },
-  "dependencies": {},
   "devDependencies": {
     "@rollup/plugin-commonjs": "^19.0.0",
     "@rollup/plugin-node-resolve": "^13.0.0",

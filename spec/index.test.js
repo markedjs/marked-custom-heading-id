@@ -1,18 +1,18 @@
 const marked = require('marked');
-const thisExtension = require('../');
+const cusomtHeadingId = require('../');
 
-describe('this-extension', () => {
+describe('custom-heading-id', () => {
   beforeEach(() => {
     marked.setOptions(marked.getDefaults());
   });
 
   test('no options', () => {
-    marked.use(thisExtension());
-    expect(marked('example markdown')).toBe('<p>example html</p>\n');
+    marked.use(cusomtHeadingId());
+    expect(marked('# heading {#custom-id}')).toBe('<h1 id="custom-id">heading</h1>\n');
   });
 
-  test('markdown not using this extension', () => {
-    marked.use(thisExtension());
-    expect(marked('not example markdown')).not.toBe('<p>example html</p>\n');
+  test('slug id if no custom id specified', () => {
+    marked.use(cusomtHeadingId());
+    expect(marked('# heading')).toBe('<h1 id="heading">heading</h1>\n');
   });
 });

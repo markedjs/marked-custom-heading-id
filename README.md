@@ -1,41 +1,26 @@
-<!-- The character `|` around a string denotes a place in this markdown file that needs to be changed for each extension. -->
-<!-- You may also delete any comments you don't need anymore. -->
+# marked-custom-heading-id
 
-# TODO:
+Specify a custom heading id in headings with the syntax `# heading {#custom-id}`
 
-- [ ] Replace information in `/README.md`
-- [ ] Replace information in `/package.json`
-- [ ] Write extension in `/src/index.js`
-- [ ] Write tests in `/spec/index.test.js`
-- [ ] Add NPM_TOKEN secret to repo for release
-- [ ] Uncomment release in `/.github/workflows/main.yml`
+The heading will be rendered with the string between `{#` and `}`
 
-<!-- Delete this line and above -->
+The id must be a valid id with the following criteria:
 
-# marked-|this-extension|
-<!-- Description -->
+  - Must start with a letter (`A-Z`, `a-z`)
+	- Must only contain word characters (`A-Z`, `a-z`, `0-9`, `_`) or dashes (`-`)
 
 # Usage
-<!-- Show most examples of how to use this extension -->
 
 ```js
 const marked = require("marked");
-const |thisExtension| = require("marked-|this-extension|");
+const customHeadingId = require("marked-custom-heading-id");
 
 // or ES Module script
 // import marked from "https://cdn.jsdelivr.net/gh/markedjs/marked/lib/marked.esm.js";
-// import this extension from "https://cdn.jsdelivr.net/gh/UziTech/marked-|this-extension|/lib/index.mjs";
+// import this extension from "https://cdn.jsdelivr.net/gh/UziTech/marked-custom-heading-id/lib/index.mjs";
 
-const options = {
-	// |default options|
-};
+marked.use(customHeadingId(options));
 
-marked.use(|thisExtension|(options));
-
-marked("|example markdown|");
-// <p>|example html|</p>
+marked("# heading {#custom-id}");
+// <h1 id="custom-id">heading</h1>
 ```
-
-## `options`
-
-<!-- If there are no options you can delete this section -->
