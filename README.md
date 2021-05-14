@@ -1,6 +1,6 @@
 # marked-custom-heading-id
 
-Specify a custom heading id in headings with the syntax `# heading {#custom-id}`
+Specify a custom heading id in headings with the [Markdown Extended Syntax](https://www.markdownguide.org/extended-syntax/#heading-ids) `# heading {#custom-id}`
 
 The heading will be rendered with the string between `{#` and `}`
 
