@@ -17,7 +17,7 @@ const customHeadingId = require("marked-custom-heading-id");
 
 // or ES Module script
 // import marked from "https://cdn.jsdelivr.net/gh/markedjs/marked/lib/marked.esm.js";
-// import this extension from "https://cdn.jsdelivr.net/gh/UziTech/marked-custom-heading-id/lib/index.mjs";
+// import customHeadingId from "https://cdn.jsdelivr.net/gh/UziTech/marked-custom-heading-id/lib/index.mjs";
 
 marked.use(customHeadingId(options));
 
