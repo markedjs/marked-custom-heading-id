@@ -1,5 +1,5 @@
-const { marked } = require('marked');
-const cusomtHeadingId = require('../');
+import { marked } from 'marked';
+import cusomtHeadingId from '../src/index.js';
 
 describe('custom-heading-id', () => {
   beforeEach(() => {

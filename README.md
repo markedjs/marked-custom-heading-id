@@ -12,12 +12,12 @@ The id must be a valid id with the following criteria:
 # Usage
 
 ```js
-const marked = require("marked");
-const customHeadingId = require("marked-custom-heading-id");
+import { marked } from "marked";
+import customHeadingId from "marked-custom-heading-id";
 
-// or ES Module script
-// import marked from "https://cdn.jsdelivr.net/gh/markedjs/marked/lib/marked.esm.js";
-// import customHeadingId from "https://cdn.jsdelivr.net/gh/UziTech/marked-custom-heading-id/lib/index.mjs";
+// or UMD script
+// <script src="https://cdn.jsdelivr.net/npm/marked/lib/marked.umd.js"></script>
+// <script src="https://cdn.jsdelivr.net/npm/marked-custom-heading-id/lib/index.umd.js"></script>
 
 marked.use(customHeadingId(options));
 
