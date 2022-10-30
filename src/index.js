@@ -1,4 +1,4 @@
-module.exports = function() {
+export default function customHeadingId() {
   return {
     renderer: {
       heading(text, level, raw, slugger) {
@@ -12,4 +12,4 @@ module.exports = function() {
       }
     }
   };
-};
+}
