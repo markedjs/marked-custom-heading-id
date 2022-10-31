@@ -19,7 +19,7 @@ import customHeadingId from "marked-custom-heading-id";
 // <script src="https://cdn.jsdelivr.net/npm/marked/lib/marked.umd.js"></script>
 // <script src="https://cdn.jsdelivr.net/npm/marked-custom-heading-id/lib/index.umd.js"></script>
 
-marked.use(customHeadingId(options));
+marked.use(customHeadingId());
 
 marked("# heading {#custom-id}");
 // <h1 id="custom-id">heading</h1>
