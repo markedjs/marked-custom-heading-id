@@ -43,7 +43,7 @@
     "marked": "^1.0.0 || ^2.0.0 || ^3.0.0 || ^4.0.0"
   },
   "devDependencies": {
-    "@babel/core": "^7.21.4",
+    "@babel/core": "^7.21.5",
     "@babel/preset-env": "^7.21.4",
     "@semantic-release/changelog": "^6.0.3",
     "@semantic-release/commit-analyzer": "^9.0.2",
