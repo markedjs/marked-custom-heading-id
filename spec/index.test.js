@@ -4,6 +4,7 @@ import cusomtHeadingId from '../src/index.js';
 describe('custom-heading-id', () => {
   beforeEach(() => {
     marked.setOptions(marked.getDefaults());
+    marked.use({ headerIds: true });
   });
 
   test('no options', () => {
