@@ -40,7 +40,7 @@
   },
   "homepage": "https://github.com/markedjs/marked-custom-heading-id#readme",
   "peerDependencies": {
-    "marked": ">=1 <12"
+    "marked": ">=1 <13"
   },
   "devDependencies": {
     "@babel/core": "^7.23.9",
