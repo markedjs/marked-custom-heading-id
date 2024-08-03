@@ -4,14 +4,14 @@ export default [
     output: {
       name: 'markedBidi',
       file: 'lib/index.umd.js',
-      format: 'umd'
-    }
+      format: 'umd',
+    },
   },
   {
     input: 'src/index.js',
     output: {
       file: 'lib/index.cjs',
-      format: 'cjs'
-    }
-  }
+      format: 'cjs',
+    },
+  },
 ];

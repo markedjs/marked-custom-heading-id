@@ -10,7 +10,7 @@ export default function customHeadingId() {
           return false;
         }
         return `<h${depth} id="${hasId[1]}">${text.replace(headingIdRegex, '')}</h${depth}>\n`;
-      }
-    }
+      },
+    },
   };
 }
