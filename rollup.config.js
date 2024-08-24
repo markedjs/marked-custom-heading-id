@@ -2,7 +2,7 @@ export default [
   {
     input: 'src/index.js',
     output: {
-      name: 'markedBidi',
+      name: 'markedCustomHeadingId',
       file: 'lib/index.umd.js',
       format: 'umd',
     },
