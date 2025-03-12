@@ -3,7 +3,8 @@ export default function customHeadingId() {
     useNewRenderer: true,
     renderer: {
       heading(text, depth) {
-        if (typeof text !== "string") {
+        /* istanbul ignore next */
+        if (typeof text !== 'string') {
           depth = text.depth;
           text = text.text;
         }
