@@ -5,6 +5,7 @@
   "main": "./lib/index.cjs",
   "module": "./src/index.js",
   "browser": "./lib/index.umd.js",
+  "types": "./src/main.d.ts",
   "type": "module",
   "files": [
     "lib/",
