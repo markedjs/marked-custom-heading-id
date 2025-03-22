@@ -5,7 +5,7 @@
   "main": "./lib/index.cjs",
   "module": "./src/index.js",
   "browser": "./lib/index.umd.js",
-  "typings": "./src/index.d.ts",
+  "types": "./src/index.d.ts",
   "type": "module",
   "files": [
     "lib/",
@@ -13,8 +13,14 @@
   ],
   "exports": {
     ".": {
-      "import": "./src/index.js",
-      "require": "./lib/index.cjs"
+      "import": {
+        "default": "./src/index.js",
+        "types": "./src/index.d.ts"
+      },
+      "require": {
+        "default": "./lib/index.cjs",
+        "types": "./src/index.d.ts"
+      }
     }
   },
   "keywords": [
