@@ -13,14 +13,9 @@
   ],
   "exports": {
     ".": {
-      "import": {
-        "types": "./src/index.d.mts",
-        "default": "./src/index.js"
-      },
-      "require": {
-        "types": "./src/index.d.cts",
-        "default": "./lib/index.cjs"
-      }
+      "types": "./src/index.d.ts",
+      "import": "./src/index.js",
+      "require": "./lib/index.cjs"
     }
   },
   "keywords": [
@@ -33,6 +28,8 @@
   "scripts": {
     "test": "jest --verbose",
     "test:cover": "jest --coverage",
+    "test:types": "tsd -t src/index.d.ts -f spec/index.test-d.ts",
+    "test:all": "npm run test:cover && npm run test:types && npm run lint && npm run build",
     "lint": "eslint .",
     "build": "rollup -c rollup.config.js"
   },
@@ -65,6 +62,16 @@
     "jest-cli": "^29.7.0",
     "marked": "^15.0.7",
     "rollup": "^4.37.0",
-    "semantic-release": "^24.2.3"
+    "semantic-release": "^24.2.3",
+    "tsd": "^0.31.2"
+  },
+  "tsd": {
+    "compilerOptions": {
+      "paths": {
+        "marked-custom-heading-id": [
+          "./src"
+        ]
+      }
+    }
   }
 }
