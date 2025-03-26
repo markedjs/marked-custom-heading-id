@@ -1,2 +1,4 @@
 import type { MarkedExtension } from 'marked';
-export default function customHeadingId(): MarkedExtension;
+declare function customHeadingId(): MarkedExtension;
+
+export default customHeadingId;
