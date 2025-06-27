@@ -18,4 +18,5 @@ export default {
   transform: {
     '\\.[jt]s$': 'babel-jest',
   },
+  transformIgnorePatterns: ['/node_modules/(?!(marked)/)'],
 };
