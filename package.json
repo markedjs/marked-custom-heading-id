@@ -50,7 +50,7 @@
   },
   "homepage": "https://github.com/markedjs/marked-custom-heading-id#readme",
   "peerDependencies": {
-    "marked": ">=1 <17"
+    "marked": ">=1 <18"
   },
   "devDependencies": {
     "@arethetypeswrong/cli": "^0.18.2",
@@ -67,7 +67,7 @@
     "eslint": "^9.39.0",
     "globals": "^16.5.0",
     "jest-cli": "^30.2.0",
-    "marked": "^16.4.1",
+    "marked": "^17.0.0",
     "rollup": "^4.52.5",
     "rollup-plugin-copy": "^3.5.0",
     "semantic-release": "^25.0.1",
