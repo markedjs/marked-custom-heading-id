@@ -68,7 +68,7 @@
     "globals": "^17.5.0",
     "jest-cli": "^30.3.0",
     "marked": "^18.0.2",
-    "rollup": "^4.60.1",
+    "rollup": "^4.60.2",
     "rollup-plugin-copy": "^3.5.0",
     "semantic-release": "^25.0.3",
     "tsd": "^0.33.0"
