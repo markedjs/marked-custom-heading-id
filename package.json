@@ -55,7 +55,7 @@
   "devDependencies": {
     "@arethetypeswrong/cli": "^0.18.5",
     "@babel/core": "^8.0.5",
-    "@babel/preset-env": "^8.0.2",
+    "@babel/preset-env": "^8.0.5",
     "@markedjs/eslint-config": "^1.0.14",
     "@semantic-release/changelog": "^7.0.0",
     "@semantic-release/commit-analyzer": "^13.0.1",
