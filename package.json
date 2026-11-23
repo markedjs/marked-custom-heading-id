@@ -67,7 +67,7 @@
     "eslint": "^10.14.0",
     "globals": "^17.14.0",
     "jest-cli": "^30.5.2",
-    "marked": "^18.2.0",
+    "marked": "^18.2.1",
     "rollup": "^4.68.2",
     "rollup-plugin-copy": "^3.5.0",
     "semantic-release": "^25.0.9",
